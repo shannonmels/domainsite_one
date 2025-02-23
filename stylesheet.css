@@ -1,8 +1,7 @@
 /* Layout all pages */
-
 body {
-					background-color: #E6EFE9;
-					font-family:courier new,times new roman;
+					background-color: #ffffff;
+					font-family:tahoma, arial;
 					font-size:18px;
 					color: #231F20;
 					margin: 0;
@@ -19,15 +18,12 @@ a {
 }
 
 h1 {
-					font-family:Helvetica;
 					font-size: 35px;
 					text-align: center;
 }
 
-h2 {
-					font-family:Helvetica;
+h2 {					
 					font-size: 40px;
-					font-family:Helvetica;
 					text-align: center;
 }
 
@@ -38,21 +34,18 @@ hr {
 
 
 /* Layout header */
-
 .header {
-							background: #931F1D;
-							color: #E6EFE9;
-							font-family:Helvetica;
+							background: #003c69;
+							color: #ffffff;
+							font-size: 15 px;
 }
 
 .menu {				
-							font-size: 15px;
 							width:300px;
 }
 
 .menu_selected {	
-							font-size: 25px;
-							font-style: bold;
+							font-weight: bold;
 							width:300px;
 }
 
@@ -74,23 +67,22 @@ hr {
 }
 
 
-/* Layout home page */
-
+/* Layout home page for pictures */
 .hometable {
 				width: 100%;
-				background-color: #19647E;
+				background-color: #D1D5DE;
 }
 
 .hometable table{
-				width: 80%;
+				width: 100%;
 				margin: 0 auto;
 				border-spacing: 20px;
-				padding: 30px;
+				padding: 20px;
 }
 
 .hometable td {
-				width: 50%;
-				padding-bottom: 30%;
+				width: 25%;
+				padding-bottom: 20%;
 				position: relative;
 }
 .hometable td img {
@@ -111,17 +103,17 @@ hr {
 }
 
 .hometable td span {
-				font-size: 19px;
+				font-size: 17px;
 				font-weight: bold;
 				position: absolute;
 				bottom: 10%;
-				color: #E6EFE9;
+				color: #ffffff;
+				z-index: 2;
 				text-align: center;
 				width: 100%;
-				z-index: 2;
 }
 
-
+/* Layout home page for address and social media */
 .connect {
 						width: 100%;
 						background-color: #D1D5DE;
@@ -145,6 +137,7 @@ hr {
 .connect td.address{
 						width:60%;
 						text-align: left;
+						font-style: italic;
 }
 
 .connect td img {
@@ -153,11 +146,16 @@ hr {
 }
 
 
-/* Layout Contact page */
+/* Layout Contact page for form */
+.contact form {
+						width: 50%;
+						min-width: 700px;
+						margin: 0 auto;
 
-.contact {		
-						margin-left: 20px;
-						padding:30px;
+}
+
+.contact td {
+						vertical-align: top;
 }
 
 .contact legend {
@@ -165,21 +163,19 @@ hr {
 }
 
 .contact #submit{
-						font-family:courier new,times new roman;
 						font-weight: bold;
 						padding: 7px;
 
 }
 
 
-/* Layout Information Page */
-
+/* Layout Our Collection Page for Display Objects*/
 table.books {
 					width:65%;
 					min-width:600px;
 					max-width: 95%;
 					padding:20px;
-					background-color:#89043D;
+					background-color:#737375;
 					color: #F6F8FF;
 }
 
@@ -205,20 +201,20 @@ td.width_books img{
 /* Layout Footer */
 .footer {				
 						font-size:14px;
-						font-family: Helvetica;
 						width: 100%;
-						background-color: #19647E;
+						background-color: #ce1f2c;
+						color: #ffffff;
 						bottom: 0;
 }
 
-.footer table {			
+.footer_table {			
 						width: 95%;
 						max-width:1200px;
-						color: #E6EFE9;
 						margin: 0 auto;
 						padding: 8px;
 						border-spacing: 25px;
 }
+				
 
 .footer td,th {			
 						text-align: left;
@@ -226,10 +222,6 @@ td.width_books img{
 						width: 300px;
 }
 
-.footer input, button {	
-						margin-bottom: 5px;
-						display: block;
-}
 
 
 
